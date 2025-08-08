@@ -73,3 +73,38 @@ header .search-sec{
     align-items: center;
     gap: 6px;
 }
+/* Section-2 Banner-Section */
+.banner-sec{
+  max-width: 1280px;
+  margin: auto;
+}
+.banner-sec img{
+  width: 100%;
+  cursor: pointer;
+}
+.second-banner{
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: 10px auto;
+  /* display: flex; */
+}
+.second-banner img{
+  width: 26%;
+  margin-left: 1.30%;
+  cursor: pointer;
+}
+.category-sec{
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.category-sec .category-item{
+  flex-basis: 10%;
+}
+.category-item img{
+  width: 100%;
+  cursor: pointer;
+}
