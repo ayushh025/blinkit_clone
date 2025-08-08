@@ -1,0 +1,42 @@
+@media (max-width:575px){
+    header{
+        flex-direction: column;
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .logo-sec{
+        justify-content: center;
+    }
+    .logo-sec .logo{
+        padding: 10px;
+    }
+    .logo-sec .address{
+        padding: 10px;
+    }
+    .address h3{
+        font-size: 15px;
+        /* margin-bottom: 4px; */
+    }
+    .address p{
+        font-size: 12px;
+    }
+    .search-sec button{
+        padding: 10px;
+    }
+    .btn-sec{
+        margin-right: 0px;
+        justify-content: center;
+        gap: 25px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .btn-sec button{
+        padding: 12px;
+    }
+    .btn-sec button:last-child{
+        gap: 4px;
+    }
+}

@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Header Section */
+header {
+  display: flex;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  gap: 30px;
+}
+.logo-sec {
+  display: flex;
+  align-items: center;
+}
+.logo-sec .logo {
+  padding: 23px 30px;
+  border-right: 1px solid #dadada;
+}
+.logo-sec .address {
+  padding: 18px 30px;
+}
+.address h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.address p {
+  font-size: 14px;
+}
+header .search-sec{
+    flex-grow: 1;       /* after this This will consume rest of area */
+    display: flex;
+    background-color: #F8F8F8;
+    border: 1px solid #f4f4f4;
+    border-radius: 15px;
+}
+.search-sec button{
+    padding: 13px;      /* After this input will increase its height automatically bcz align-items:streach is default value */
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}
+.search-sec input{
+    font-size: 18px;
+    background-color: transparent;
+    flex-grow: 1;   /* After this input will be take 100% width except button's width */
+    border: none;
+}
+.search-sec input:focus{
+    outline: none;
+}
+.btn-sec{
+    display: flex;
+    margin-right: 40px;
+    gap: 40px;
+}
+.btn-sec button{
+    padding: 15px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+}
+.btn-sec button:last-child{
+    background-color: #54b226;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
