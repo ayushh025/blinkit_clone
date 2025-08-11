@@ -36,14 +36,14 @@ header {
   font-size: 14px;
 }
 header .search-sec {
-  flex-grow: 1; /* after this This will consume rest of area */
+  flex-grow: 1; 
   display: flex;
   background-color: #f8f8f8;
   border: 1px solid #f4f4f4;
   border-radius: 15px;
 }
 .search-sec button {
-  padding: 13px; /* After this input will increase its height automatically bcz align-items:streach is default value */
+  padding: 13px;
   background-color: transparent;
   border: none;
   font-size: 18px;
@@ -51,7 +51,7 @@ header .search-sec {
 .search-sec input {
   font-size: 18px;
   background-color: transparent;
-  flex-grow: 1; /* After this input will be take 100% width except button's width */
+  flex-grow: 1;
   border: none;
 }
 .search-sec input:focus {
