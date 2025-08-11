@@ -6,7 +6,7 @@ Created for practice and to improve responsive web design skills.
 ---
 
 ## 🔗 Live Demo  
-**[View Project on Vercel](blinkit-clone-ayush.vercel.app)**  
+**[View Project on Vercel](https://blinkit-clone-ayush.vercel.app)**  
 
 ---
 
