@@ -77,6 +77,7 @@ header .search-sec {
   display: flex;
   align-items: center;
   gap: 6px;
+  white-space: nowrap;
 }
 /* Section-2 Banner-Section */
 .banner-sec {
