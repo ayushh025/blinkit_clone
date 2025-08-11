@@ -6,13 +6,13 @@ Created for practice and to improve responsive web design skills.
 ---
 
 ## 🔗 Live Demo  
-**[View Project on Vercel](https://your-vercel-link.vercel.app)**  
+**[View Project on Vercel](blinkit-clone-ayush.vercel.app)**  
 
 ---
 
 ## 📸 Screenshots  
-![Blinkit Clone - Home](images/Screenshot_1.png)  
-![Blinkit Clone - Mobile View](images/Screenshot_2.png)  
+<img src="images/Screenshot_1.png" alt="Blinkit Screenshot" width="500">
+<img src="images/Screenshot_2.png" alt="Blinkit Screenshot" width="200"> 
 
 ---
 
