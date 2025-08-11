@@ -1,6 +1,6 @@
 /* For Mobile Screen */
 
-@media (max-width: 575px) {
+@media (min-width:0px) and (max-width: 575px) {
   header {
     flex-direction: column;
     align-items: stretch;
@@ -116,5 +116,106 @@
   .copyright-download{
     flex-direction: column;
     gap: 20px;
+  }
+}
+/* For Tablet Screen */
+@media (min-width:576px) and (max-width:991px){
+  /* Header */
+  header{
+    gap: 0px;
+    padding: 10px;
+  }
+  .logo-sec .logo{
+    padding: 10px 15px;
+  }
+  .logo-sec .address{
+    padding: 10px 15px;
+  }
+  .address h3{
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+  .address p{
+    font-size: 11px;
+  }
+  .search-sec button{
+    padding: 9px;
+  }
+  .search-sec button, .search-sec input{
+    font-size: 15px;
+  }
+  .btn-sec{
+    margin-right: 20px;
+    gap: 18px;
+  }
+  .btn-sec button{
+    padding: 12px;
+    font-size: 15px;
+  }
+  .btn-sec button:last-child{
+    gap: 4px;
+  }
+  /* Category Section */
+  .category-sec .category-item {
+    flex-basis: 20%;
+  }
+  /* Product Section */
+  .headingRow{
+    padding: 0px 2.7%;
+  }
+  .headingRow h2{
+    font-size: 25px;
+  }
+  .headingRow a{
+    font-size: 20px;
+  }
+  .productItem{
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  .productRow{
+    margin-bottom: 0px;
+  }
+  .prd-img span{
+    font-size: 12px;
+  }
+  .productContent h5{
+    font-size: 16px;
+  }
+  .productContent p{
+    font-size: 15px;
+  }
+  .price-outer b{
+    font-size: 16px;
+  }
+  .price-outer button{
+    padding: 7px 18px;
+    font-size: 16px;
+  }
+  /* Footer */
+  footer{
+    padding: 40px;
+    padding-bottom: 0px;
+  }
+  .links li a{
+    margin-right: 10px;
+  }
+  .copyright-download p{
+    flex-basis: 30%;
+    text-align: left;
+  }
+  .download{
+    flex-basis: 40%;
+    gap: 0px;
+    justify-content: space-around;
+  }
+  .social{
+    flex-basis: 30%;
+    justify-content: space-evenly;
+  }
+  .social i{
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
   }
 }

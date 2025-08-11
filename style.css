@@ -12,6 +12,10 @@ header {
   border-bottom: 1px solid #ccc;
   align-items: center;
   gap: 30px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .logo-sec {
   display: flex;
@@ -63,6 +67,7 @@ header .search-sec {
   background-color: transparent;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 .btn-sec button:last-child {
   background-color: #54b226;
@@ -194,6 +199,7 @@ header .search-sec {
   border: 1px solid #328832;
   border-radius: 5px;
   transition: 0.4s;
+  cursor: pointer;
 }
 .price-outer button:hover {
   background-color: #328832;
@@ -205,7 +211,7 @@ header .search-sec {
 }
 /* Footer Design */
 footer {
-  padding: 50px 0px 10px;
+  padding: 50px 20px 10px;
   max-width: 1280px;
   margin: auto;
 }
