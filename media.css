@@ -1,6 +1,6 @@
 /* For Mobile Screen */
 
-@media (min-width:0px) and (max-width: 720px) {
+@media (min-width:0px) and (max-width: 575px) {
   header {
     flex-direction: column;
     align-items: stretch;
@@ -118,41 +118,58 @@
   }
 }
 /* For Tablet Screen */
-@media (min-width:720px) and (max-width:1100px){
+@media (min-width:576px) and (max-width:992px){
   /* Header */
-  header{
-    gap: 0px;
-    padding: 10px;
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 16px;
+  }
+  .logo-sec{
+    justify-content: space-between;
+    padding: 0px 20px;
   }
   .logo-sec .logo{
-    padding: 10px 15px;
+    padding: 12px 20px;
   }
   .logo-sec .address{
-    padding: 10px 15px;
+    padding: 13px 20px;
   }
   .address h3{
-    font-size: 15px;
-    margin-bottom: 6px;
+    font-size: 20px;
+    margin-bottom: 8px;
   }
   .address p{
-    font-size: 11px;
+    font-size: 15px;
+  }
+  header .search-sec{
+    margin: 0px 20px;
   }
   .search-sec button{
-    padding: 9px;
+    padding: 13px;
   }
   .search-sec button, .search-sec input{
-    font-size: 15px;
+    font-size: 17px;
   }
-  .btn-sec{
-    margin-right: 20px;
-    gap: 18px;
+  .btn-sec {
+    margin-right: 0px;
+    justify-content: center;
+    gap: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
   }
   .btn-sec button{
-    padding: 12px;
-    font-size: 15px;
+    padding: 15px;
+    font-size: 17px;
+    white-space: nowrap;
   }
   .btn-sec button:last-child{
-    gap: 4px;
+    gap: 6px;
   }
   /* Category Section */
   .category-sec .category-item {
@@ -193,13 +210,22 @@
   }
   /* Footer */
   footer{
-    padding: 40px;
-    padding-bottom: 0px;
+    padding: 20px;
+    padding-bottom: 75px;
+  }
+  
+  .usefullLinks a{
+    font-size: 13px;
   }
   .links li a{
     margin-right: 10px;
+    font-size: 13px;
   }
-  .copyright-download p{
+  .copyright-download{
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* .copyright-download p{
     flex-basis: 30%;
     text-align: left;
   }
@@ -211,7 +237,7 @@
   .social{
     flex-basis: 30%;
     justify-content: space-evenly;
-  }
+  } */
   .social i{
     height: 30px;
     width: 30px;
